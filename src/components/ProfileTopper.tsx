@@ -144,7 +144,6 @@ const ProfileTopper = () => {
                             rel="noopener noreferrer"
                             leftIcon={<Icon as={FaGithub} />}
                             colorScheme="purple"
-                            variant="outline"
                             size={{
                                 base: "md",
                                 md: "sm",
@@ -163,7 +162,6 @@ const ProfileTopper = () => {
                             rel="noopener noreferrer"
                             leftIcon={<Icon as={FaLinkedin} />}
                             colorScheme="blue"
-                            variant="outline"
                             size={{
                                 base: "md",
                                 md: "sm",

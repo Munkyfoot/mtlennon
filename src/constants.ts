@@ -1,15 +1,20 @@
 import { NavItem } from "@/types"
 
-export const siteTitle = "Next.js Starter with Chakra UI"
+export const siteTitle = "Michael Lennon"
 export const siteDescription =
-    "Next.js starter template with TypeScript, Chakra UI, Custom Components, and more to help you get started quickly."
-export const siteCanonical = "https://example.com"
+    "Michael Lennon is a software engineer based in Olympia, WA."
+export const siteCanonical = "https://www.michaeltlennon.com"
 export const siteAuthor = "Munkyfoot"
-export const siteNavItems: NavItem[] = [{ name: "Start Here", href: "/" }]
+export const siteNavItems: NavItem[] = [{ name: "Michael Lennon", href: "/" }]
 export const externalNavItems: NavItem[] = [
     {
-        name: "GitHub Repo",
-        href: "https://github.com/Munkyfoot/next-chakra-starter",
+        name: "GitHub",
+        href: "https://github.com/Munkyfoot",
+        isExternal: true,
+    },
+    {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/in/munkyfoot/",
         isExternal: true,
     },
 ]

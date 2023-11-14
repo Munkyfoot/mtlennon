@@ -28,8 +28,11 @@ const ProfileTopper = () => {
                 md: "row",
             }}
             align="center"
-            justify="center"
-            gap={8}
+            justify={{
+                base: "center",
+                md: "flex-start",
+            }}
+            gap={[8, 12]}
         >
             <Circle size={64} maxW="full" overflow="hidden" shadow="lg">
                 <NextImage
@@ -39,6 +42,7 @@ const ProfileTopper = () => {
                 />
             </Circle>
             <VStack
+                w="full"
                 spacing={4}
                 align={{
                     base: "center",

@@ -4,16 +4,16 @@ import SectionItem, { SectionItemProps } from "./SectionItem"
 
 const educationItems: SectionItemProps[] = [
     {
-        title: "Western Governors University",
-        subtitle: "Bachelor of Science, Computer Science",
+        title: "Bachelor of Science, Computer Science",
+        subtitle: "Western Governors University",
         startDate: new VariableDate(2020, 9, 1),
         endDate: new VariableDate(2023, 11, 10),
         description:
             "Western Governors University is an online university driven by a mission to expand access to higher education through online, competency-based degree programs.",
     },
     {
-        title: "Udacity",
-        subtitle: "Full Stack Web Developer Nanodegree",
+        title: "Full Stack Web Developer Nanodegree",
+        subtitle: "Udacity",
         startDate: new VariableDate(2020),
         endDate: new VariableDate(2020),
         externalLink: {
@@ -22,8 +22,8 @@ const educationItems: SectionItemProps[] = [
         },
     },
     {
-        title: "Udacity",
-        subtitle: "C++ Nanodegree",
+        title: "C++ Nanodegree",
+        subtitle: "Udacity",
         startDate: new VariableDate(2018),
         endDate: new VariableDate(2019),
         externalLink: {
@@ -32,8 +32,8 @@ const educationItems: SectionItemProps[] = [
         },
     },
     {
-        title: "Udacity",
-        subtitle: "Artificial Intelligence Nanodegree",
+        title: "Artificial Intelligence Nanodegree",
+        subtitle: "Udacity",
         startDate: new VariableDate(2018),
         endDate: new VariableDate(2019),
         externalLink: {

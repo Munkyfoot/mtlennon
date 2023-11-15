@@ -4,8 +4,8 @@ import SectionItem, { SectionItemProps } from "./SectionItem"
 
 const experienceItems: SectionItemProps[] = [
     {
-        title: "MTL Softworks",
-        subtitle: "Owner & Lead Software Developer",
+        title: "Owner & Lead Software Developer",
+        subtitle: "MTL Softworks",
         startDate: new VariableDate(2018, 6),
         description:
             "I started MTL Softworks in 2018 as a way to provide software development services to clients. Since then, I've worked with clients to build web applications, mobile applications, and more. My focus is on building high-quality, performant, and accessible applications that meet the needs of my clients and their users.",
@@ -15,8 +15,8 @@ const experienceItems: SectionItemProps[] = [
         },
     },
     {
-        title: "Sol Seed",
-        subtitle: "Performer & Technology Specialist",
+        title: "Performer & Technology Specialist",
+        subtitle: "Sol Seed",
         startDate: new VariableDate(2010, 9),
         description:
             "I've been a member of Sol Seed since 2010, performing over 1,000 shows across the United States. In addition to performing, I also manage the band's website and other technology-related needs.",
@@ -26,8 +26,8 @@ const experienceItems: SectionItemProps[] = [
         },
     },
     {
-        title: "Udacity",
-        subtitle: "Program Mentor",
+        title: "Program Mentor",
+        subtitle: "Udacity",
         startDate: new VariableDate(2019, 5),
         endDate: new VariableDate(2019, 7),
         description:

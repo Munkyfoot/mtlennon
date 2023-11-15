@@ -9,7 +9,10 @@ export interface SectionItemProps {
     startDate: VariableDate
     endDate?: VariableDate
     description?: string
-    externalLink?: string
+    externalLink?: {
+        title: string
+        href: string
+    }
 }
 
 const SectionItem = ({
@@ -58,14 +61,15 @@ const SectionItem = ({
             {externalLink && (
                 <Button
                     as="a"
-                    href={externalLink}
+                    href={externalLink.href}
                     target="_blank"
                     rel="noopener noreferrer"
                     colorScheme="blue"
                     size="sm"
                     variant="outline"
+                    mt={2}
                 >
-                    View Certificate
+                    {externalLink.title}
                 </Button>
             )}
         </VStack>

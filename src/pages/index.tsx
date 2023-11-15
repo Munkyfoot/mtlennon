@@ -3,6 +3,7 @@ import Education from "@/components/Education"
 import Experience from "@/components/Experience"
 import Layout from "@/components/Layout"
 import ProfileTopper from "@/components/ProfileTopper"
+import Skills from "@/components/Skills"
 
 export default function Home() {
     return (
@@ -14,6 +15,7 @@ export default function Home() {
             <About />
             <Education />
             <Experience />
+            <Skills />
         </Layout>
     )
 }

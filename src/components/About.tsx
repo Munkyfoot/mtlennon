@@ -11,15 +11,16 @@ const About = () => {
                 About
             </Heading>
             <Text>
-                As a seasoned Software Developer and Designer, I bring over five
-                years of professional experience and a lifelong passion for
-                technology. My journey has been marked by a unique blend of
-                artistic creativity and technical prowess, beginning with simple
+                As a Software Developer and Designer, I bring over five years of
+                professional experience and a lifelong passion for technology.
+                My journey has been marked by a unique blend of artistic
+                creativity and technical interest, beginning with simple
                 adjustments of HTML and CSS and evolving into a career as a
-                freelance developer building, launching and maintaining over a
-                dozen bespoke websites. I hold a Bachelor's Degree in Computer
-                Science from Western Governors University, and my diverse skill
-                set spans front-end and back-end web development, game
+                freelance developer. I've had the opportunity to work with a
+                variety of clients to build, launch, and maintain over a dozen
+                professional websites. I hold a Bachelor's Degree in Computer
+                Science from Western Governors University, and my diverse
+                skillset spans front-end and back-end web development, game
                 development, and machine learning.
             </Text>
             <div>
@@ -44,23 +45,25 @@ const About = () => {
                             current focus on React/Next.js and ChakraUI hosted
                             on Vercel, reflecting my commitment to performance,
                             aesthetic appeal, and accessibility in web
-                            development. I also have experience with Flask and
-                            Bootstrap, alongside cloud management, and a working
-                            knowledge of languages like Python, TypeScript, C#,
-                            C++, and Java. My technical toolkit includes git for
-                            version control, Lighthouse for performance
-                            analysis, and the OpenAI API for experimentation.
+                            development. This is complemented by experience with
+                            Flask and Bootstrap, alongside server management,
+                            and a working knowledge of languages like Python,
+                            TypeScript, C#, C++, and Java. My technical toolkit
+                            includes Git for version control, Lighthouse for
+                            performance analysis, Unity for Game Development,
+                            and the OpenAI API for experimentation.
                         </Text>
                         <Text>
-                            My educational journey includes Udacity Nanodegrees
+                            In addition to my Computer Science degree, my
+                            educational experience includes Udacity Nanodegrees
                             in Full Stack Web Development, Artificial
-                            Intelligence, and C++, which not only enhanced my
-                            technical skills but also enabled me to mentor and
-                            teach others, as demonstrated during my tenure as a
-                            Program Mentor at Udacity.
+                            Intelligence, and C++. These courses not only
+                            enhanced my technical skills but also enabled me to
+                            mentor and teach others, as demonstrated during my
+                            tenure as a Program Mentor at Udacity.
                         </Text>
                         <Text>
-                            I am excited about opportunities to contribute to
+                            I look forward to opportunities to contribute to
                             innovative projects in front-end development, where
                             I can blend my unique artistic vision with technical
                             expertise. As a recent graduate, I am eager to join

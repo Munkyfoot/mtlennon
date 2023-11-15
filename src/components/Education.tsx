@@ -63,12 +63,12 @@ const EducationItem = ({
 
     return (
         <VStack align="flex-start">
+            <Heading as="h3" size="md">
+                {institution}
+            </Heading>
             <VStack align="flex-start" spacing={0}>
-                <Heading as="h3" size="md">
-                    {institution}
-                </Heading>
                 <Text fontSize="lg">{degree}</Text>
-                <Text>
+                <Text color="gray.500">
                     {startDate.format()} - {endDate?.format() ?? "Present"}
                 </Text>
             </VStack>

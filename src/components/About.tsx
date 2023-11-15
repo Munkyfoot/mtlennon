@@ -71,18 +71,22 @@ const About = () => {
                         </Text>
                     </VStack>
                 </Collapse>
+                <Button
+                    variant="link"
+                    colorScheme="blue"
+                    onClick={onToggle}
+                    leftIcon={
+                        isOpen ? (
+                            <MinusIcon boxSize={2} />
+                        ) : (
+                            <AddIcon boxSize={2} />
+                        )
+                    }
+                    size="sm"
+                >
+                    {isOpen ? "Show Less" : "Read More"}
+                </Button>
             </div>
-            <Button
-                variant="link"
-                colorScheme="blue"
-                onClick={onToggle}
-                leftIcon={
-                    isOpen ? <MinusIcon boxSize={2} /> : <AddIcon boxSize={2} />
-                }
-                size="sm"
-            >
-                {isOpen ? "Show Less" : "Read More"}
-            </Button>
         </VStack>
     )
 }

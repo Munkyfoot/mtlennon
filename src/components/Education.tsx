@@ -45,13 +45,15 @@ const educationItems: SectionItemProps[] = [
 
 const Education = () => {
     return (
-        <VStack align="flex-start" spacing={6}>
+        <VStack align="flex-start" spacing={4}>
             <Heading as="h2" size="lg">
                 Education
             </Heading>
-            {educationItems.map((item) => (
-                <SectionItem key={item.title} {...item} />
-            ))}
+            <VStack align="stretch" spacing={6}>
+                {educationItems.map((item, i) => (
+                    <SectionItem key={`education_item_${i}`} {...item} />
+                ))}
+            </VStack>
         </VStack>
     )
 }

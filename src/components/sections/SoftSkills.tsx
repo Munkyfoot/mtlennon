@@ -60,6 +60,30 @@ const SoftSkills = () => {
                     high-quality, innovative solutions.
                 </Text>
             </VStack>
+
+            <VStack align="flex-start">
+                <Heading as="h3" size="md">
+                    Language Proficiency
+                </Heading>
+                <VStack align="flex-start" spacing={0}>
+                    <Heading as="h4" size="sm">
+                        Native
+                    </Heading>
+                    <Text>English (US)</Text>
+                </VStack>
+                <VStack align="flex-start" spacing={0}>
+                    <Heading as="h4" size="sm">
+                        Intermediate
+                    </Heading>
+                    <Text>Español (México)</Text>
+                </VStack>
+                <VStack align="flex-start" spacing={0}>
+                    <Heading as="h4" size="sm">
+                        Basic
+                    </Heading>
+                    <Text>日本語 / Japanese</Text>
+                </VStack>
+            </VStack>
         </VStack>
     )
 }

@@ -1,6 +1,6 @@
 import { VariableDate } from "@/types"
 import { Heading, VStack } from "@chakra-ui/react"
-import SectionItem, { SectionItemProps } from "./SectionItem"
+import SectionItem, { SectionItemProps } from "../SectionItem"
 
 const educationItems: SectionItemProps[] = [
     {

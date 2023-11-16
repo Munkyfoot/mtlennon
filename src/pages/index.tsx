@@ -1,9 +1,9 @@
-import About from "@/components/About"
-import Education from "@/components/Education"
-import Experience from "@/components/Experience"
+import About from "@/components/sections/About"
+import Education from "@/components/sections/Education"
+import Experience from "@/components/sections/Experience"
 import Layout from "@/components/Layout"
-import ProfileTopper from "@/components/ProfileTopper"
-import Skills from "@/components/Skills"
+import ProfileTopper from "@/components/sections/ProfileTopper"
+import Skills from "@/components/sections/Skills"
 
 export default function Home() {
     return (

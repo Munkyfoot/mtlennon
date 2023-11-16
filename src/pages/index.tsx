@@ -3,7 +3,7 @@ import Education from "@/components/sections/Education"
 import Experience from "@/components/sections/Experience"
 import Layout from "@/components/Layout"
 import ProfileTopper from "@/components/sections/ProfileTopper"
-import Skills from "@/components/sections/Skills"
+import TechSkills from "@/components/sections/TechSkills"
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react"
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
                     <Tab>Career</Tab>
                     <Tab>Education</Tab>
                     <Tab>Experience</Tab>
-                    <Tab>Skills</Tab>
+                    <Tab>Technical Skills</Tab>
                 </TabList>
 
                 <TabPanels>
@@ -32,7 +32,7 @@ export default function Home() {
                         <Experience />
                     </TabPanel>
                     <TabPanel>
-                        <Skills />
+                        <TechSkills />
                     </TabPanel>
                 </TabPanels>
             </Tabs>

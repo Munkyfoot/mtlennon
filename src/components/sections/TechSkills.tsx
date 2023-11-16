@@ -1,6 +1,6 @@
 import { Heading, Text, VStack } from "@chakra-ui/react"
 
-const Skills = () => {
+const TechSkills = () => {
     return (
         <VStack align="flex-start" spacing={4}>
             <Heading as="h2" size="lg">
@@ -62,4 +62,4 @@ const Skills = () => {
     )
 }
 
-export default Skills
+export default TechSkills

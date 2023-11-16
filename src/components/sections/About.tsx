@@ -8,7 +8,7 @@ const About = () => {
     return (
         <VStack align="flex-start">
             <Heading as="h2" size="lg">
-                About
+                Career
             </Heading>
             <Text>
                 As a Software Developer and Designer, I bring over five years of

@@ -13,7 +13,7 @@ import {
 } from "@chakra-ui/react"
 import NextImage from "next/image"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
-import portrait from "/public/mp.png"
+import portrait from "/public/portrait.jpg"
 import { useState } from "react"
 
 const ProfileTopper = () => {

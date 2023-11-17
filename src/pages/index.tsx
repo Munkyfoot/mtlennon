@@ -1,17 +1,17 @@
-import About from "@/components/sections/About"
-import Education from "@/components/sections/Education"
-import Experience from "@/components/sections/Experience"
+import About from "@/components/tabs/About"
+import Education from "@/components/tabs/Education"
+import Experience from "@/components/tabs/Experience"
 import Layout from "@/components/Layout"
-import ProfileTopper from "@/components/sections/ProfileTopper"
-import TechSkills from "@/components/sections/TechSkills"
+import ProfileTopper from "@/components/tabs/ProfileTopper"
+import TechSkills from "@/components/tabs/TechSkills"
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react"
-import SoftSkills from "@/components/sections/SoftSkills"
+import SoftSkills from "@/components/tabs/SoftSkills"
 
 export default function Home() {
     return (
         <Layout
-            title="Michael Lennon"
-            description="Michael Lennon is a software developer & designer."
+            title="About"
+            description="Michael Lennon is a software developer & designer. Learn more about his career, education, experience, and skills."
         >
             <ProfileTopper />
             <Tabs

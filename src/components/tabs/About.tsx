@@ -39,12 +39,11 @@ const About = () => {
                             problem-solving. This background in the arts,
                             coupled with a deep interest in software
                             development, enables me to approach problem-solving
-                            and design in innovative ways. As I transitioned
-                            from music to a full-time career in software
-                            development, I established my own web development
-                            business, further deepening my understanding of
-                            business operations and enhancing my client
-                            relations skills.
+                            and design in innovative ways. As I continued to
+                            develop my career in software development, I
+                            established my own web development business, further
+                            deepening my understanding of business operations
+                            and enhancing my client relations skills.
                         </Text>
                         <Text>
                             I am proficient in a range of technologies, with a
@@ -55,9 +54,9 @@ const About = () => {
                             Flask and Bootstrap, alongside server management,
                             and a working knowledge of languages like Python,
                             TypeScript, C#, C++, and Java. My technical toolkit
-                            includes Git for version control, Lighthouse for
-                            performance analysis, Unity for Game Development,
-                            and the OpenAI API for experimentation.
+                            includes Git for version control, Unity for Game
+                            Development, the OpenAI API for experimentation, as
+                            well as many other technologies.
                         </Text>
                         <Text>
                             In addition to my Computer Science degree, my
@@ -66,7 +65,7 @@ const About = () => {
                             Intelligence, and C++. These courses not only
                             enhanced my technical skills but also enabled me to
                             mentor and teach others, as demonstrated during my
-                            tenure as a Program Mentor at Udacity.
+                            time as a Program Mentor at Udacity.
                         </Text>
                         <Text>
                             I look forward to opportunities to contribute to

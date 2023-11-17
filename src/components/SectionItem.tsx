@@ -39,7 +39,7 @@ const SectionItem = ({
             {description && (
                 <div>
                     <Collapse in={isOpen} animateOpacity>
-                        <Text>{description}</Text>
+                        <Text whiteSpace="pre-line">{description}</Text>
                     </Collapse>
                     <Button
                         variant="link"

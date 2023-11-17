@@ -1,8 +1,12 @@
 <xml version="1.0" encoding="UTF-8">
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-    <loc>http://www.example.com/</loc>
-    <lastmod>2023-11-11</lastmod>
+    <loc>https://www.michaeltlennon.com/</loc>
+    <lastmod>2023-11-17</lastmod>
+    </url>
+    <url>
+    <loc>https://www.michaeltlennon.com/portfolio</loc>
+    <lastmod>2023-11-17</lastmod>
     </url>
 </urlset>
 </xml>

@@ -16,8 +16,8 @@ const educationItems: SectionItemProps[] = [
     {
         title: "C++ Nanodegree",
         subtitle: "Udacity",
-        startDate: new VariableDate(2018),
-        endDate: new VariableDate(2019),
+        startDate: new VariableDate(2020),
+        endDate: new VariableDate(2020),
         externalLink: {
             title: "View Certificate",
             href: "https://confirm.udacity.com/G9LGTVEM",

@@ -7,9 +7,13 @@ const educationItems: SectionItemProps[] = [
         title: "Bachelor of Science, Computer Science",
         subtitle: "Western Governors University",
         startDate: new VariableDate(2020, 9, 1),
-        endDate: new VariableDate(2023, 11, 10),
+        endDate: new VariableDate(2023, 11, 16),
         description:
             "Western Governors University is an online university driven by a mission to expand access to higher education through online, competency-based degree programs.",
+        externalLink: {
+            title: "View Temporary Transcript",
+            href: "/tempproof.jpg",
+        },
     },
     {
         title: "Full Stack Web Developer Nanodegree",

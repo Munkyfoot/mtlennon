@@ -15,9 +15,9 @@ const experienceItems: SectionItemProps[] = [
         },
     },
     {
-        title: "Performer & Technology Specialist",
+        title: "Co-Owner, Performer & Technology Specialist",
         subtitle: "Sol Seed",
-        startDate: new VariableDate(2010, 9),
+        startDate: new VariableDate(2012, 8),
         description: `Since 2010, I have been an integral member of Sol Seed, a band known for its unique reggae fusion sound. Beyond performing in over 1,000 shows across the United States, I have played a pivotal role in managing and developing the band's online presence. My responsibilities encompass the entire lifecycle of our website, from initial conception and design to launch and ongoing maintenance. This experience has honed my skills in web development, particularly in creating and sustaining a dynamic, user-friendly site that resonates with our diverse audience.
 
         While the musical milestones of releasing three albums, amassing over 48k monthly listeners on Spotify, and achieving over 7 million views on YouTube for our hit song 'Family Tree' are distinct from my technical career path, they underscore my commitment to excellence and adaptability in diverse environments. My time with Sol Seed has been instrumental in developing soft skills such as team collaboration, effective conflict resolution, and resilience when encountering unexpected challenges. Additionally, it has been a valuable networking platform, enabling me to build a client base and forge connections that have been pivotal in growing my career in software development.`,

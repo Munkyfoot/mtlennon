@@ -39,7 +39,11 @@ const SectionItem = ({
             <VStack align="flex-start" spacing={0}>
                 <Text fontSize="lg">{subtitle}</Text>
                 <Text color="gray.500">
-                    {startDate.format()} - {endDate?.format() ?? "Present"}
+                    {startDate.format() === endDate?.format()
+                        ? startDate.format()
+                        : `${startDate.format()} - ${
+                              endDate?.format() ?? "Present"
+                          }`}
                 </Text>
             </VStack>
             {description && (

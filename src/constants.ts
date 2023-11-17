@@ -5,7 +5,13 @@ export const siteDescription =
     "Michael Lennon is a software engineer based in Olympia, WA."
 export const siteCanonical = "https://www.michaeltlennon.com"
 export const siteAuthor = "Munkyfoot"
-export const siteNavItems: NavItem[] = [{ name: "Michael Lennon", href: "/" }]
+export const siteNavItems: NavItem[] = [
+    { name: "Michael Lennon", href: "/" },
+    {
+        name: "Portfolio",
+        href: "/portfolio",
+    },
+]
 export const externalNavItems: NavItem[] = [
     {
         name: "GitHub",

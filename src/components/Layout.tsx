@@ -93,7 +93,7 @@ const Layout = ({
                     content={description || siteDescription}
                 />
                 {/* TODO: Add og image */}
-                {/*<meta property="og:image" content="/og-image.png" />*/}
+                <meta property="og:image" content="/og-image.png" />
                 <meta property="og:url" content={siteCanonical} />
                 <meta property="og:type" content="website" />
 
@@ -104,7 +104,7 @@ const Layout = ({
                 />
                 <meta name="twitter:description" content={description} />
                 {/* TODO: Add twitter image */}
-                {/*<meta name="twitter:image" content="/twitter-image.png" />*/}
+                <meta name="twitter:image" content="/twitter-image.png" />
             </Head>
             <Flex
                 direction="column"

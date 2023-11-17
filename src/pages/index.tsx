@@ -1,13 +1,13 @@
+import Layout from "@/components/Layout"
 import About from "@/components/tabs/About"
 import Education from "@/components/tabs/Education"
 import Experience from "@/components/tabs/Experience"
-import Layout from "@/components/Layout"
 import ProfileTopper from "@/components/tabs/ProfileTopper"
-import TechSkills from "@/components/tabs/TechSkills"
-import { Tabs, TabList, TabPanels, Tab, TabPanel, Text } from "@chakra-ui/react"
 import SoftSkills from "@/components/tabs/SoftSkills"
-import { useState, useEffect, useMemo } from "react"
+import TechSkills from "@/components/tabs/TechSkills"
+import { Tab, TabList, TabPanel, TabPanels, Tabs } from "@chakra-ui/react"
 import { useRouter } from "next/router"
+import { useEffect, useMemo, useState } from "react"
 
 export default function Home() {
     const router = useRouter()

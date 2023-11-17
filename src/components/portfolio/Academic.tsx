@@ -1,6 +1,5 @@
-import { GridItem, Heading, SimpleGrid, Text, VStack } from "@chakra-ui/react"
+import { GridItem, Heading, SimpleGrid, VStack } from "@chakra-ui/react"
 import ProjectItem, { ProjectItemProps } from "../ProjectItem"
-import { VariableDate } from "@/types"
 
 const projects: ProjectItemProps[] = [
     {

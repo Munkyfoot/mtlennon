@@ -1,8 +1,7 @@
 import { GridItem, Heading, SimpleGrid, Text, VStack } from "@chakra-ui/react"
 import ProjectItem, { ProjectItemProps } from "../ProjectItem"
-import { VariableDate } from "@/types"
 
-const projects: ProjectItemProps[] = [    
+const projects: ProjectItemProps[] = [
     {
         title: "MTL Softworks",
         type: "website",

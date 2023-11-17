@@ -1,4 +1,4 @@
-import { CopyIcon, EmailIcon, CheckCircleIcon } from "@chakra-ui/icons"
+import { CheckCircleIcon, CopyIcon, EmailIcon } from "@chakra-ui/icons"
 import {
     Button,
     Circle,
@@ -12,9 +12,9 @@ import {
     useToast,
 } from "@chakra-ui/react"
 import NextImage from "next/image"
+import { useState } from "react"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 import portrait from "/public/portrait.jpg"
-import { useState } from "react"
 
 const ProfileTopper = () => {
     const [emailIsCopied, setEmailIsCopied] = useState(false)

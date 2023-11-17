@@ -1,6 +1,12 @@
 import { AddIcon, MinusIcon } from "@chakra-ui/icons"
-import { Button, Collapse, Spacer, useDisclosure } from "@chakra-ui/react"
-import { Heading, Text, VStack } from "@chakra-ui/react"
+import {
+    Button,
+    Collapse,
+    Heading,
+    Text,
+    VStack,
+    useDisclosure,
+} from "@chakra-ui/react"
 
 const About = () => {
     const { isOpen, onToggle } = useDisclosure()
@@ -16,12 +22,12 @@ const About = () => {
                 My journey has been marked by a unique blend of artistic
                 creativity and technical interest, beginning with simple
                 adjustments of HTML and CSS and evolving into a career as a
-                freelance developer. I&apos;ve had the opportunity to work with a
-                variety of clients to build, launch, and maintain over a dozen
-                professional websites. I hold a Bachelor&apos;s Degree in Computer
-                Science from Western Governors University, and my diverse
-                skillset spans front-end and back-end web development, game
-                development, and machine learning.
+                freelance developer. I&apos;ve had the opportunity to work with
+                a variety of clients to build, launch, and maintain over a dozen
+                professional websites. I hold a Bachelor&apos;s Degree in
+                Computer Science from Western Governors University, and my
+                diverse skillset spans front-end and back-end web development,
+                game development, and machine learning.
             </Text>
             <div>
                 <Collapse in={isOpen} animateOpacity>

@@ -1,7 +1,13 @@
 import { VariableDate } from "@/types"
 import { AddIcon, MinusIcon } from "@chakra-ui/icons"
-import { Button, Collapse, Spacer, useDisclosure } from "@chakra-ui/react"
-import { Heading, Text, VStack } from "@chakra-ui/react"
+import {
+    Button,
+    Collapse,
+    Heading,
+    Text,
+    VStack,
+    useDisclosure,
+} from "@chakra-ui/react"
 
 export interface SectionItemProps {
     title: string

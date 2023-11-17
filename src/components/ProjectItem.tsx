@@ -1,14 +1,15 @@
 import { VariableDate } from "@/types"
-import { AddIcon, MinusIcon } from "@chakra-ui/icons"
 import {
     Button,
-    Collapse,
+    Card,
+    CardBody,
+    CardFooter,
+    CardHeader,
     HStack,
-    Spacer,
-    useDisclosure,
+    Heading,
+    Text,
+    VStack,
 } from "@chakra-ui/react"
-import { Heading, Text, VStack } from "@chakra-ui/react"
-import { Card, CardHeader, CardBody, CardFooter } from "@chakra-ui/react"
 
 export interface ProjectItemProps {
     title: string
@@ -30,10 +31,8 @@ const ProjectItem = ({
     skills,
     externalLink,
 }: ProjectItemProps) => {
-    const { isOpen, onToggle } = useDisclosure()
-
     return (
-        <Card variant="outline" h="full" >
+        <Card variant="outline" h="full">
             <CardHeader>
                 <Heading as="h3" size="md">
                     {title}

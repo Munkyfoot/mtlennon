@@ -1,6 +1,10 @@
-# Next-Chakra Starter
+# Michael Lennon Personal Website
 
-This is the official repository for the Next-Chakra Starter, a comprehensive template for kickstarting Next.js projects with TypeScript and ChakraUI. It's designed to provide a solid foundation for your Next.js projects, including basic components and essential configurations.
+This is my personal website that serves as a portfolio and CV. It is built using Next.js and ChakraUI on top of the Next-Chakra Starter template.
+
+---
+
+# Next-Chakra Starter
 
 ## Features
 

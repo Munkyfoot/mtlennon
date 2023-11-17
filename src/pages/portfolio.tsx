@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <Layout
             title="Portfolio"
-            description="View Michael's portfolio of projects, spanning professional, personal, and academic work."
+            description="View Michael's portfolio of projects, spanning professional and academic work."
         >
             <VStack align="flex-start" spacing={8}>
                 <Professional />

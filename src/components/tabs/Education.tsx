@@ -14,16 +14,6 @@ const educationItems: SectionItemProps[] = [
         },
     },
     {
-        title: "Full Stack Web Developer Nanodegree",
-        subtitle: "Udacity",
-        startDate: new VariableDate(2020),
-        endDate: new VariableDate(2020),
-        externalLink: {
-            title: "View Certificate",
-            href: "https://confirm.udacity.com/9HPC5K4",
-        },
-    },
-    {
         title: "C++ Nanodegree",
         subtitle: "Udacity",
         startDate: new VariableDate(2018),
@@ -41,6 +31,16 @@ const educationItems: SectionItemProps[] = [
         externalLink: {
             title: "View Certificate",
             href: "https://confirm.udacity.com/RJ7R4GG5",
+        },
+    },
+    {
+        title: "Full Stack Web Developer Nanodegree",
+        subtitle: "Udacity",
+        startDate: new VariableDate(2018),
+        endDate: new VariableDate(2018),
+        externalLink: {
+            title: "View Certificate",
+            href: "https://confirm.udacity.com/9HPC5K4",
         },
     },
 ]

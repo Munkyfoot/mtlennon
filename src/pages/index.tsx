@@ -4,10 +4,40 @@ import Experience from "@/components/tabs/Experience"
 import Layout from "@/components/Layout"
 import ProfileTopper from "@/components/tabs/ProfileTopper"
 import TechSkills from "@/components/tabs/TechSkills"
-import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react"
+import { Tabs, TabList, TabPanels, Tab, TabPanel, Text } from "@chakra-ui/react"
 import SoftSkills from "@/components/tabs/SoftSkills"
+import { useState, useEffect } from "react"
+import { useRouter } from "next/router"
 
 export default function Home() {
+    const router = useRouter()
+    const [tabIndex, setTabIndex] = useState(0)
+
+    const tabNames = [
+        "Career",
+        "Education",
+        "Experience",
+        "Technical Skills",
+        "Soft Skills",
+    ]
+
+    useEffect(() => {
+        const hash = router.asPath.split("#")[1]
+        if (hash) {
+            const index = tabNames.findIndex(
+                (tabName) => tabName.toLowerCase().replace(" ", "-") === hash
+            )
+            if (index !== -1) {
+                setTabIndex(index)
+            }
+        }
+    }, [router.asPath])
+
+    const handleChangeTab = (index: number) => {
+        setTabIndex(index)
+        router.push(`#${tabNames[index].toLowerCase().replace(" ", "-")}`)
+    }
+
     return (
         <Layout
             title="About"
@@ -15,6 +45,8 @@ export default function Home() {
         >
             <ProfileTopper />
             <Tabs
+                index={tabIndex}
+                onChange={handleChangeTab}
                 isFitted
                 isLazy
                 variant={{

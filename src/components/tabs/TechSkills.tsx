@@ -10,38 +10,20 @@ const TechSkills = () => {
                 <Heading as="h3" size="md">
                     Languages
                 </Heading>
-                <VStack align="flex-start" spacing={0}>
-                    <Heading as="h4" size="sm">
-                        Adept
-                    </Heading>
-                    <Text>Python, TypeScript, JavaScript, HTML, CSS</Text>
-                </VStack>
-                <VStack align="flex-start" spacing={0}>
-                    <Heading as="h4" size="sm">
-                        Proficient
-                    </Heading>
-                    <Text>Bash/Shell, CMD, C#, C++</Text>
-                </VStack>
+                <Text>
+                    Python, TypeScript, JavaScript, HTML, CSS, Bash/Shell, CMD,
+                    C#, C++
+                </Text>
             </VStack>
             <VStack align="flex-start">
                 <Heading as="h3" size="md">
                     Frameworks/Software/APIs
                 </Heading>
-                <VStack align="flex-start" spacing={0}>
-                    <Heading as="h4" size="sm">
-                        Adept
-                    </Heading>
-                    <Text>
-                        Next.js/React, ChakraUI, Flask, Bootstrap, SQLAlchemy,
-                        Unity Game Engine, OpenAI API, StableDiffusion
-                    </Text>
-                </VStack>
-                <VStack align="flex-start" spacing={0}>
-                    <Heading as="h4" size="sm">
-                        Proficient
-                    </Heading>
-                    <Text>Tailwind, Supabase, Apache 2, PyTorch</Text>
-                </VStack>
+                <Text>
+                    Next.js/React, ChakraUI, Flask, Bootstrap, SQLAlchemy, Unity
+                    Game Engine, OpenAI API, Shopify/Liquid, Tailwind, Supabase,
+                    Apache 2, PyTorch
+                </Text>
             </VStack>
             <VStack align="flex-start">
                 <Heading as="h3" size="md">

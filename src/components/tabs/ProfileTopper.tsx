@@ -39,6 +39,7 @@ const ProfileTopper = () => {
                     src={portrait}
                     alt="Michael Lennon"
                     placeholder="blur"
+                    priority
                 />
             </Circle>
             <VStack

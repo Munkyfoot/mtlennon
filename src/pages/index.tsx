@@ -6,20 +6,23 @@ import ProfileTopper from "@/components/tabs/ProfileTopper"
 import TechSkills from "@/components/tabs/TechSkills"
 import { Tabs, TabList, TabPanels, Tab, TabPanel, Text } from "@chakra-ui/react"
 import SoftSkills from "@/components/tabs/SoftSkills"
-import { useState, useEffect } from "react"
+import { useState, useEffect, useMemo } from "react"
 import { useRouter } from "next/router"
 
 export default function Home() {
     const router = useRouter()
     const [tabIndex, setTabIndex] = useState(0)
 
-    const tabNames = [
-        "Career",
-        "Education",
-        "Experience",
-        "Technical Skills",
-        "Soft Skills",
-    ]
+    const tabNames = useMemo(
+        () => [
+            "Career",
+            "Education",
+            "Experience",
+            "Technical Skills",
+            "Soft Skills",
+        ],
+        []
+    )
 
     useEffect(() => {
         const hash = router.asPath.split("#")[1]
@@ -31,7 +34,7 @@ export default function Home() {
                 setTabIndex(index)
             }
         }
-    }, [router.asPath])
+    }, [router.asPath, tabNames])
 
     const handleChangeTab = (index: number) => {
         setTabIndex(index)

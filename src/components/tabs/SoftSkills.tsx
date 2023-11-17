@@ -28,7 +28,7 @@ const SoftSkills = () => {
                 <Text>
                     Balancing careers in music and software development, along
                     with pursuing a Computer Science degree, has honed my time
-                    management and prioritization skills. I've adapted to
+                    management and prioritization skills. I&apos;ve adapted to
                     industry shifts, transitioning from Flask to React/Next.js,
                     to better align with evolving client requirements.
                 </Text>

@@ -12,7 +12,7 @@ const About = () => {
                 becoming a proficient freelance developer. My career journey is
                 marked by a blend of artistic creativity and technical interest,
                 culminating in the creation and maintenance of over a dozen
-                professional websites. Holding a Bachelor's Degree in Computer
+                professional websites. Holding a Bachelor&apos;s Degree in Computer
                 Science from Western Governors University, I have developed a
                 diverse skill set covering front-end and back-end web
                 development, game development, and machine learning. My

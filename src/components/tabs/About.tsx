@@ -1,12 +1,4 @@
-import { AddIcon, MinusIcon } from "@chakra-ui/icons"
-import {
-    Button,
-    Collapse,
-    Heading,
-    Text,
-    VStack,
-    useDisclosure,
-} from "@chakra-ui/react"
+import { Heading, Text, VStack } from "@chakra-ui/react"
 
 const About = () => {
     return (

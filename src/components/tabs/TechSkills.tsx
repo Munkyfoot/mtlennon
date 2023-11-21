@@ -11,8 +11,8 @@ const TechSkills = () => {
                     Languages
                 </Heading>
                 <Text>
-                    Python, TypeScript, JavaScript, HTML, CSS, Bash/Shell, CMD,
-                    C#, C++
+                    Python, TypeScript, JavaScript, HTML, CSS, SQL, Bash/Shell,
+                    C#, C++, Java
                 </Text>
             </VStack>
             <VStack align="flex-start">
@@ -20,16 +20,19 @@ const TechSkills = () => {
                     Frameworks/Software/APIs
                 </Heading>
                 <Text>
-                    Next.js/React, ChakraUI, Flask, Bootstrap, SQLAlchemy, Unity
-                    Game Engine, OpenAI API, Shopify/Liquid, Tailwind, Supabase,
-                    Apache 2, PyTorch
+                    React, Next.js, ChakraUI, TailwindCSS, Flask, Bootstrap, SQL
+                    Alchemy, Unity, Shopify/Liquid, PyTorch, Apache Server,
+                    OpenAI API, Supabase, and more…
                 </Text>
             </VStack>
             <VStack align="flex-start">
                 <Heading as="h3" size="md">
                     Tools
                 </Heading>
-                <Text>Git, VS Code, Anaconda, CLI (Shell & CMD)</Text>
+                <Text>
+                    Git, Github, VS Code, Visual Studio, CLI, Anaconda, Linux
+                    Server Management
+                </Text>
             </VStack>
             <VStack align="flex-start">
                 <Heading as="h3" size="md">

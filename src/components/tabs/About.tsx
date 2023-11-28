@@ -2,7 +2,7 @@ import { Heading, Text, VStack } from "@chakra-ui/react"
 
 const About = () => {
     return (
-        <VStack align="flex-start">
+        <VStack align="flex-start" spacing={4}>
             <Heading as="h2" size="lg">
                 Career
             </Heading>

@@ -53,7 +53,7 @@ export default function Home() {
                 isFitted
                 isLazy
                 variant={{
-                    base: "soft-rounded",
+                    base: "solid-rounded",
                     md: "line",
                 }}
             >

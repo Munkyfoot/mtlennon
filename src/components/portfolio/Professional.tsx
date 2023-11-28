@@ -1,10 +1,12 @@
+import { VariableDate } from "@/types"
 import { GridItem, Heading, SimpleGrid, Text, VStack } from "@chakra-ui/react"
 import ProjectItem, { ProjectItemProps } from "../ProjectItem"
 
 const projects: ProjectItemProps[] = [
     {
         title: "MTL Softworks",
-        type: "website",
+        type: "web",
+        dateCompleted: new VariableDate(2023),
         skills: ["React", "Next.js", "Chakra UI", "TypeScript"],
         externalLink: {
             title: "Visit Website",
@@ -13,7 +15,8 @@ const projects: ProjectItemProps[] = [
     },
     {
         title: "Sol Seed Music",
-        type: "website",
+        type: "web",
+        dateCompleted: new VariableDate(2023),
         skills: ["React", "Next.js", "Tailwind", "TypeScript"],
         externalLink: {
             title: "Visit Website",
@@ -22,7 +25,8 @@ const projects: ProjectItemProps[] = [
     },
     {
         title: "Blue Avenue Music Group",
-        type: "website",
+        type: "web",
+        dateCompleted: new VariableDate(2023),
         skills: ["React", "Next.js", "Chakra UI", "TypeScript", "OpenAI API"],
         externalLink: {
             title: "Visit Website",
@@ -31,7 +35,8 @@ const projects: ProjectItemProps[] = [
     },
     {
         title: "Chuck DeMonnin",
-        type: "website",
+        type: "web",
+        dateCompleted: new VariableDate(2023),
         skills: ["React", "Next.js", "Chakra UI", "TypeScript"],
         externalLink: {
             title: "Visit Website",
@@ -39,21 +44,23 @@ const projects: ProjectItemProps[] = [
         },
     },
     {
-        title: "Salon Cerna",
-        type: "website",
-        skills: ["Flask", "Bootstrap", "Python", "HTML", "CSS"],
-        externalLink: {
-            title: "Visit Website",
-            href: "https://www.saloncerna.com/",
-        },
-    },
-    {
         title: "The Roasting Shack",
-        type: "website",
+        type: "web",
+        dateCompleted: new VariableDate(2021),
         skills: ["Shopify", "Liquid"],
         externalLink: {
             title: "Visit Website",
             href: "https://www.theroastingshack.com/",
+        },
+    },
+    {
+        title: "Salon Cerna",
+        type: "web",
+        dateCompleted: new VariableDate(2020),
+        skills: ["Flask", "Bootstrap", "Python", "HTML", "CSS"],
+        externalLink: {
+            title: "Visit Website",
+            href: "https://www.saloncerna.com/",
         },
     },
 ]

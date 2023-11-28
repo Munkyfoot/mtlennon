@@ -5,7 +5,6 @@ import {
     CardBody,
     CardFooter,
     CardHeader,
-    HStack,
     Heading,
     Text,
     VStack,
@@ -13,7 +12,7 @@ import {
 
 export interface ProjectItemProps {
     title: string
-    type?: "website" | "game" | "machine learning" | "other"
+    type: "web" | "game" | "machine learning" | "other"
     dateCompleted?: VariableDate
     description?: string
     skills?: string[]
@@ -37,13 +36,15 @@ const ProjectItem = ({
                 <Heading as="h3" size="md">
                     {title}
                 </Heading>
-                {(type || dateCompleted) && (
-                    <HStack color="gray.500">
-                        {type && <Text textTransform="capitalize">{type}</Text>}
-                        {type && dateCompleted && <Text>{" • "}</Text>}
-                        {dateCompleted && <Text>{dateCompleted.format()}</Text>}
-                    </HStack>
-                )}
+                <Text
+                    color="gray.500"
+                    fontSize="sm"
+                    fontWeight="semibold"
+                    textTransform="capitalize"
+                >
+                    {type} Project{" "}
+                    {dateCompleted && `(${dateCompleted.format()})`}
+                </Text>
             </CardHeader>
             <CardBody>
                 <VStack align="flex-start" spacing={4}>

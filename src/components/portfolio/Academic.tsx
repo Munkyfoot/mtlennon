@@ -1,3 +1,4 @@
+import { VariableDate } from "@/types"
 import { GridItem, Heading, SimpleGrid, VStack } from "@chakra-ui/react"
 import ProjectItem, { ProjectItemProps } from "../ProjectItem"
 
@@ -5,6 +6,7 @@ const projects: ProjectItemProps[] = [
     {
         title: "Doodle Zoo (WGU Capstone Project)",
         type: "machine learning",
+        dateCompleted: new VariableDate(2023),
         skills: ["Python", "PyTorch"],
         externalLink: {
             title: "Visit GitHub Repository",
